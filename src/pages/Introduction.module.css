@@ -1,0 +1,15 @@
+.introduction {
+  width: calc(100% - 270px);
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.name {
+  margin-left: 56px;
+  font-size: 48px;
+}
