@@ -1,9 +1,9 @@
 .header {
-  height: 108px;
+  height: 80px;
   background-color: #96cdff;
 }
 .title {
-  line-height: 108px;
+  line-height: 80px;
   margin-left: 32px;
   font-size: 32px;
 }

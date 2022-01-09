@@ -1,19 +1,20 @@
 .sideBar {
   width: 270px;
-  height: calc(100vh - 108px);
+  height: calc(100vh - 80px);
   background-color: #96cdff;
 }
-.button1 {
-  margin-top: 16px;
-}
-button {
+
+.button {
+  display: block;
   border: 1px solid #000000;
   cursor: pointer;
   background-color: #96cdff;
-  width: 235px;
+  width: 248px;
   height: 80px;
   font-size: 32px;
   text-align: center;
-  line-height: 80px;
-  margin-bottom: 40px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
 }
