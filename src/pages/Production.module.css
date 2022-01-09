@@ -1,0 +1,27 @@
+.production {
+  width: calc(100% - 270px);
+}
+.header {
+  display: flex;
+  margin-top: 40px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.title {
+  font-size: 48px;
+}
+.ul {
+  list-style: none;
+}
+.li {
+  width: 90%;
+  height: 100px;
+  border-bottom: 1px solid #777777;
+}
+.li > h1 {
+}
+.li > img {
+}
+.li > div {
+}
