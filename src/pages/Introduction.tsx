@@ -4,7 +4,7 @@ function Introuction() {
   return (
     <div className={styles.introduction}>
       <div className={styles.header}>
-        <span className={styles.name}>自己紹介</span>
+        <span className={styles.title}>自己紹介</span>
       </div>
       <br />
       <div className={styles.text}>しっかりした自己紹介</div>
