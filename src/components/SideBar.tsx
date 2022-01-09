@@ -8,9 +8,9 @@ function SideBar() {
       <button onClick={() => navigate('/')} className={styles.button1}>
         ホーム
       </button>
-      <button onClick={() => navigate('/')}>自己紹介</button>
-      <button onClick={() => navigate('/')}>制作物</button>
-      <button onClick={() => navigate('/')}>リンク</button>
+      <button onClick={() => navigate('/introduction')}>自己紹介</button>
+      <button onClick={() => navigate('/production')}>制作物</button>
+      <button onClick={() => navigate('/links')}>リンク</button>
     </div>
   )
 }
