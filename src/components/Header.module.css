@@ -2,3 +2,8 @@
   height: 108px;
   background-color: #96cdff;
 }
+.title {
+  line-height: 108px;
+  margin-left: 32px;
+  font-size: 32px;
+}

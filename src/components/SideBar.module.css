@@ -3,3 +3,14 @@
   height: calc(100vh - 108px);
   background-color: #96cdff;
 }
+.button {
+  border: 1px solid #000000;
+  cursor: pointer;
+  background-color: #96cdff;
+  width: 235px;
+  height: 80px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
