@@ -3,7 +3,10 @@
   height: calc(100vh - 108px);
   background-color: #96cdff;
 }
-.button {
+.button1 {
+  margin-top: 16px;
+}
+button {
   border: 1px solid #000000;
   cursor: pointer;
   background-color: #96cdff;
