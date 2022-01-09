@@ -1,0 +1,37 @@
+.top {
+  width: calc(100% - 270px);
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.iconImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name {
+  margin-left: 56px;
+  font-size: 48px;
+}
+.text {
+  margin-bottom: 200px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.button {
+  border: 1px solid #000000;
+  cursor: pointer;
+  background-color: #96cdff;
+  width: 160px;
+  height: 160px;
+  font-size: 32px;
+  text-align: center;
+}
