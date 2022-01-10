@@ -13,3 +13,9 @@
 .title {
   font-size: 48px;
 }
+.text {
+  margin-top: 24px;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}

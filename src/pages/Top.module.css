@@ -21,5 +21,8 @@
   font-size: 48px;
 }
 .text {
-  margin-bottom: 200px;
+  margin-top: 24px;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
