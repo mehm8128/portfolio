@@ -11,7 +11,7 @@ function SideBar() {
       <button onClick={() => navigate('/introduction')} className={styles.button}>
         自己紹介
       </button>
-      <button onClick={() => navigate('/production')} className={styles.button}>
+      <button onClick={() => navigate('/productions')} className={styles.button}>
         制作物
       </button>
       <button onClick={() => navigate('/links')} className={styles.button}>

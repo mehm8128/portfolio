@@ -23,17 +23,3 @@
 .text {
   margin-bottom: 200px;
 }
-.buttons {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-.button {
-  border: 1px solid #000000;
-  cursor: pointer;
-  background-color: #96cdff;
-  width: 160px;
-  height: 160px;
-  font-size: 32px;
-  text-align: center;
-}
