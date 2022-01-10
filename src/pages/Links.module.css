@@ -24,10 +24,9 @@
 }
 .itemContent {
 }
-.li a {
+.link {
   font-size: 32px;
   color: #000000;
-  text-decoration: none;
 }
 .contactButton {
   font-size: 32px;
