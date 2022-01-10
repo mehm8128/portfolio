@@ -1,38 +1,46 @@
+import {useNavigate} from 'react-router-dom'
 import styles from './Links.module.css'
 
 function Links() {
+  const navigate = useNavigate()
   const linkList = [
-    {name: 'Twitter', image: '', link: 'https://twitter.com/mehm08128'},
-    {name: 'GitHub', image: '', link: 'https://github.com/mehm8128'},
-    {name: 'Qiita', image: '', link: 'https://qiita.com/mehm8128'},
-    {name: 'traPブログ', image: '', link: 'https://trap.jp/author/mehm8128/'},
-    {name: 'Atcoder', image: '', link: 'https://atcoder.jp/users/mehm8128'},
-    {name: 'お問い合わせ', image: '', link: ''},
+    {name: 'Twitter', link: 'https://twitter.com/mehm08128'},
+    {name: 'GitHub', link: 'https://github.com/mehm8128'},
+    {name: 'Qiita', link: 'https://qiita.com/mehm8128'},
+    {name: 'traPブログ', link: 'https://trap.jp/author/mehm8128/'},
+    {name: 'Atcoder', link: 'https://atcoder.jp/users/mehm8128'},
   ]
   const listItems1 = linkList.slice(0, Math.ceil(linkList.length / 2)).map((item, index) => (
     <li key={index} className={styles.li}>
-      <a href={item.link}>
-        <img src={item.image} alt={item.name} />
-      </a>
-      <span>{item.name}</span>
+      <span className={styles.itemContent}>
+        <a href={item.link}>{item.name}</a>
+      </span>
     </li>
   ))
   const listItems2 = linkList.slice(Math.ceil(linkList.length / 2)).map((item, index) => (
     <li key={index} className={styles.li}>
-      <a href={item.link}>
-        <img src={item.image} alt={item.name} />
-      </a>
-      <span>{item.name}</span>
+      <span className={styles.itemContent}>
+        <a href={item.link}>{item.name}</a>
+      </span>
     </li>
   ))
   return (
     <div className={styles.links}>
       <div className={styles.header}>
-        <span className={styles.title}>制作物</span>
+        <span className={styles.title}>リンク</span>
       </div>
       <div className={styles.itemList}>
         <ul className={styles.ul}>{listItems1}</ul>
-        <ul className={styles.ul}>{listItems2}</ul>
+        <ul className={styles.ul}>
+          {listItems2}
+          <li className={styles.li}>
+            <span className={styles.itemContent}>
+              <button onClick={() => navigate('/contact')} className={styles.contactButton}>
+                お問い合わせ
+              </button>
+            </span>
+          </li>
+        </ul>
       </div>
     </div>
   )

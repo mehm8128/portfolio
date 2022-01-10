@@ -1,4 +1,4 @@
-import styles from './Production.module.css'
+import styles from './Productions.module.css'
 
 function Production() {
   const productionList = [

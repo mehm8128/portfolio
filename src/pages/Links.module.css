@@ -14,7 +14,6 @@
   font-size: 48px;
 }
 .ul {
-  list-style: none;
 }
 .li {
   height: 100px;
@@ -23,9 +22,16 @@
   display: flex;
   justify-content: space-evenly;
 }
-.li > h1 {
+.itemContent {
 }
-.li > img {
+.li a {
+  font-size: 32px;
+  color: #000000;
+  text-decoration: none;
 }
-.li > div {
+.contactButton {
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
