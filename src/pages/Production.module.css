@@ -1,5 +1,7 @@
 .production {
   width: calc(100% - 270px);
+  margin-left: 270px;
+  margin-top: 80px;
 }
 .header {
   display: flex;
@@ -16,12 +18,10 @@
 }
 .li {
   width: 90%;
-  height: 100px;
+  height: 150px;
   border-bottom: 1px solid #777777;
 }
 .li > h1 {
 }
-.li > img {
-}
-.li > div {
+.itemContent {
 }

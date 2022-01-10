@@ -2,6 +2,8 @@
   width: 270px;
   height: calc(100vh - 80px);
   background-color: #96cdff;
+  position: fixed;
+  margin-top: 80px;
 }
 
 .button {

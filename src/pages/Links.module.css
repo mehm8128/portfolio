@@ -1,5 +1,7 @@
 .links {
   width: calc(100% - 270px);
+  margin-left: 270px;
+  margin-top: 80px;
 }
 .header {
   display: flex;
