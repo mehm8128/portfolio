@@ -51,7 +51,7 @@
   width: 148px;
   height: 48px;
   border: 1px solid #000000;
-  background-color: #96cdff;
+  background-color: #cae5ff;
   font-size: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -59,4 +59,8 @@
   margin-right: 20px;
   text-align: center;
   cursor: pointer;
+}
+.submitButton:hover {
+  background-color: #96cdff;
+  color: #525252;
 }

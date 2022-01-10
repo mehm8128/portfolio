@@ -1,12 +1,12 @@
 .sideBar {
   width: 270px;
   height: calc(100vh - 80px);
-  background-color: #96cdff;
+  background-color: #cae5ff;
   position: fixed;
   margin-top: 80px;
 }
 
-.button {
+.buttonHere {
   display: block;
   border: 1px solid #000000;
   cursor: pointer;
@@ -19,4 +19,23 @@
   margin-bottom: 24px;
   margin-right: auto;
   margin-left: auto;
+}
+.buttonNotHere {
+  display: block;
+  border: 1px solid #000000;
+  cursor: pointer;
+  background-color: #cae5ff;
+  color: #525252;
+  width: 248px;
+  height: 80px;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.buttonNotHere:hover {
+  background-color: #96cdff;
+  color: #525252;
 }
