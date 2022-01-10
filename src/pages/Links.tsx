@@ -31,16 +31,7 @@ function Links() {
       </div>
       <div className={styles.itemList}>
         <ul className={styles.ul}>{listItems1}</ul>
-        <ul className={styles.ul}>
-          {listItems2}
-          <li className={styles.li}>
-            <span className={styles.itemContent}>
-              <button onClick={() => navigate('/contact')} className={styles.contactButton}>
-                お問い合わせ
-              </button>
-            </span>
-          </li>
-        </ul>
+        <ul className={styles.ul}>{listItems2}</ul>
       </div>
     </div>
   )

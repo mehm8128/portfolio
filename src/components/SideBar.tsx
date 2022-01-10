@@ -17,6 +17,9 @@ function SideBar() {
       <button onClick={() => navigate('/links')} className={styles.button}>
         リンク
       </button>
+      <button onClick={() => navigate('/contact')} className={styles.button}>
+        お問い合わせ
+      </button>
     </div>
   )
 }
