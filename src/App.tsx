@@ -3,8 +3,9 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Top from './pages/Top'
 import Layout from './components/Layout'
 import Introuction from './pages/Introduction'
-import Production from './pages/Production'
+import Productions from './pages/Productions'
 import Links from './pages/Links'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Top />} />
             <Route path="/introduction" element={<Introuction />} />
-            <Route path="/production" element={<Production />} />
+            <Route path="/productions" element={<Productions />} />
             <Route path="/links" element={<Links />} />
+            <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
       </BrowserRouter>
