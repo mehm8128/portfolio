@@ -18,10 +18,14 @@
 }
 .li {
   width: 90%;
-  height: 150px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #777777;
 }
-.li > h1 {
+.li:last-child {
+  border-bottom: 0;
+}
+.link {
+  color: #000000;
 }
 .itemContent {
 }
