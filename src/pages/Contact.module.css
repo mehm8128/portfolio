@@ -12,10 +12,12 @@
 }
 .title {
   font-size: 48px;
+  color: #333333;
 }
 .text {
   margin-top: 32px;
   text-align: center;
+  color: #333333;
 }
 .form {
   width: 60%;
@@ -23,6 +25,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 32px;
+  background-color: #cae5ff;
 }
 .form > form {
   width: 100%;
@@ -62,5 +65,5 @@
 }
 .submitButton:hover {
   background-color: #96cdff;
-  color: #525252;
+  color: #333333;
 }
