@@ -3,10 +3,19 @@
   height: 80px;
   background-color: #cae5ff;
   position: fixed;
+  display: flex;
+  align-items: center;
 }
 .title {
-  line-height: 80px;
-  margin-left: 32px;
   font-size: 32px;
   color: #333333;
+}
+.titleButton {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 32px;
 }
