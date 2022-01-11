@@ -1,7 +1,7 @@
-import styles from './Top.module.css'
+import styles from './Home.module.css'
 import icon from '../assets/mehm8128.png'
 
-function Top() {
+function Home() {
   return (
     <div className={styles.top}>
       <div className={styles.header}>
@@ -31,4 +31,4 @@ function Top() {
   )
 }
 
-export default Top
+export default Home

@@ -1,6 +1,6 @@
 import styles from './App.module.css'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import Top from './pages/Top'
+import Home from './pages/Home'
 import Layout from './components/Layout'
 import Introuction from './pages/Introduction'
 import Productions from './pages/Productions'
@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
-            <Route path="/" element={<Top />} />
+            <Route path="/" element={<Home />} />
             <Route path="/introduction" element={<Introuction />} />
             <Route path="/productions" element={<Productions />} />
             <Route path="/links" element={<Links />} />
