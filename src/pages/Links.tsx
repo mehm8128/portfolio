@@ -12,20 +12,24 @@ function Links() {
   ]
   const listItems1 = linkList.slice(0, Math.ceil(linkList.length / 2)).map((item, index) => (
     <li key={index} className={styles.li}>
+      <div className={styles.arrow1}></div>
       <span className={styles.itemContent}>
         <a href={item.link} className={styles.link}>
           {item.name}
         </a>
       </span>
+      <div className={styles.arrow2}></div>
     </li>
   ))
   const listItems2 = linkList.slice(Math.ceil(linkList.length / 2)).map((item, index) => (
     <li key={index} className={styles.li}>
+      <div className={styles.arrow1}></div>
       <span className={styles.itemContent}>
         <a href={item.link} className={styles.link}>
           {item.name}
         </a>
       </span>
+      <div className={styles.arrow2}></div>
     </li>
   ))
   return (

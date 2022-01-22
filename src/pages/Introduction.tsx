@@ -8,8 +8,7 @@ function Introuction() {
       </div>
       <br />
       <div className={styles.text}>
-        2021年
-        <br />
+        <h1>2021年</h1>
         4月 東京工業大学工学院に入学。
         <br />
         5月 東京工業大学デジタル創作同好会traPに入部、本格的にAtcoderを始める。
@@ -20,7 +19,7 @@ function Introuction() {
         <br />
         12月 traPの部内ハッカソン（ピクシブ協賛）で場所法援助Webアプリ「Palamo」制作のフロントエンドを担当。
         <br />
-        2022年
+        <h1>2022年</h1>
         <br />
       </div>
     </div>

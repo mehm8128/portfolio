@@ -4,20 +4,23 @@
   margin-top: 80px;
 }
 .header {
-  display: flex;
+  display: block;
   margin-top: 40px;
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
+  text-align: center;
 }
 .title {
   font-size: 48px;
   color: #333333;
 }
 .text {
+  font-size: 20px;
   margin-top: 24px;
   width: 70%;
   margin-right: auto;
   margin-left: auto;
   color: #333333;
+}
+.text > h1 {
+  font-size: 28px;
 }

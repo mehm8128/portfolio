@@ -4,33 +4,52 @@
   margin-top: 80px;
 }
 .header {
-  display: flex;
+  display: block;
   margin-top: 40px;
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
+  text-align: center;
 }
 .title {
   font-size: 48px;
 }
 .ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.ul:last-child {
+  margin-bottom: 0px;
 }
 .li {
+  display: flex;
   height: 100px;
+  justify-content: center;
+  align-items: center;
 }
 .itemList {
-  display: flex;
-  justify-content: space-evenly;
 }
 .itemContent {
+  margin-bottom: 4px;
 }
 .link {
   font-size: 32px;
   color: #333333;
 }
-.contactButton {
-  font-size: 32px;
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
+.arrow1 {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-top: solid 4px #96cdff;
+  border-right: solid 4px #96cdff;
+  transform: rotate(-135deg);
+}
+
+.arrow2 {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-top: solid 4px #96cdff;
+  border-right: solid 4px #96cdff;
+  transform: rotate(45deg);
 }

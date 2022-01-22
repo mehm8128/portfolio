@@ -35,11 +35,13 @@ function Production() {
           </h1>
           <div className={styles.itemContent}>
             <div className={styles.description}>
-              Qiitaの
-              <a href="https://qiita.com/HawkClaws/items/599d7666f55e79ef7f56" className={styles.link}>
-                この記事
-              </a>
-              を見てクライアントを作った。Reactで作った。
+              <span className={styles.content}>
+                Qiitaの
+                <a href="https://qiita.com/HawkClaws/items/599d7666f55e79ef7f56" className={styles.link}>
+                  この記事
+                </a>
+                を見てクライアントを作った。Reactで作った。
+              </span>
             </div>
           </div>
         </li>
@@ -51,7 +53,9 @@ function Production() {
           </h1>
           <div className={styles.itemContent}>
             <div className={styles.description}>
-              traPの2021冬ハッカソン(ピクシブ協賛)で作った場所法援助アプリ。クライアントを担当した。クライアントはReact+TypeScript、サーバーはgolangで作られている。
+              <span className={styles.content}>
+                traPの2021冬ハッカソン(ピクシブ協賛)で作った場所法援助アプリ。クライアントを担当した。クライアントはReact+TypeScript、サーバーはgolangで作られている。
+              </span>
             </div>
           </div>
         </li>
@@ -64,7 +68,9 @@ function Production() {
           </h1>
           <div className={styles.itemContent}>
             <div className={styles.description}>
-              クリスマス前に作ったクリスマスツリー飾りつけWebアプリ。Reactで作った。
+              <span className={styles.content}>
+                クリスマス前に作ったクリスマスツリー飾りつけWebアプリ。Reactで作った。
+              </span>
             </div>
           </div>
         </li>
@@ -76,7 +82,9 @@ function Production() {
           </h1>
           <div className={styles.itemContent}>
             <div className={styles.description}>
-              golangで書いたサーバーをherokuでデプロイし、Reactで適当にクライアントを作って名前と本文を投稿できるようにした。RDBMSにはPostgreSQLを使っている。
+              <span className={styles.content}>
+                golangで書いたサーバーをherokuでデプロイし、Reactで適当にクライアントを作って名前と本文を投稿できるようにした。RDBMSにはPostgreSQLを使っている。
+              </span>
             </div>
           </div>
         </li>
