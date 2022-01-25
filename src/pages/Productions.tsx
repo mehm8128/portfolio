@@ -19,6 +19,10 @@ function Production() {
       name: '簡易SNS',
       link: 'https://concise-sns.vercel.app/',
     },
+    {
+      name: 'ToDoリスト',
+      link: 'https://vue-practice-vert.vercel.app/',
+    },
   ]
 
   return (
@@ -83,8 +87,21 @@ function Production() {
           <div className={styles.itemContent}>
             <div className={styles.description}>
               <span className={styles.content}>
-                golangで書いたサーバーをherokuでデプロイし、Reactで適当にクライアントを作って名前と本文を投稿できるようにした。RDBMSにはPostgreSQLを使っている。
+                golangで書いたサーバーをherokuでデプロイし、Reactで適当にクライアントを作って名前と本文を投稿できるようにした。RDBMSにはPostgreSQLを使っている。CSSはstyled-componentsを使っている。
               </span>
+            </div>
+          </div>
+        </li>
+        <li className={styles.li}>
+          <h1>
+            <a href={productionList[4].link} className={styles.link}>
+              {productionList[4].name}
+            </a>
+          </h1>
+          <div className={styles.itemContent}>
+            <div className={styles.description}>
+              traPでVueを使ったサービスを開発する前に練習として作ったToDoリスト(とカウンター)。状態管理にpiniaを使い、CSSにはWindi
+              CSSを使っている。また、データをローカルストレージに保存できるようにした。
             </div>
           </div>
         </li>
