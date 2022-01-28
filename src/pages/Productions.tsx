@@ -16,7 +16,7 @@ function Production() {
           <div className={styles.itemContent}>
             <div className={styles.description}>
               <span className={styles.content}>
-                traPの2021冬ハッカソン(ピクシブ様協賛)で作った場所法援助アプリ。クライアントを担当した。クライアントはReact+TypeScript、サーバーはgolangで作られている。
+                traPの2021冬ハッカソン(ピクシブ様協賛)で作った場所法援助アプリ。クライアントを担当した。クライアントはReact+TypeScript、サーバーはgolangで作られている。自分が担当したのは宮殿一覧、テンプレート一覧やクイズ機能、通信周りなど
               </span>
             </div>
           </div>

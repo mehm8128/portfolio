@@ -17,7 +17,7 @@ function Introuction() {
         <br />
         10月 Atcoderで茶色になる。
         <br />
-        12月 traPの部内ハッカソン（ピクシブ協賛）で場所法援助Webアプリ「Palamo」制作のフロントエンドを担当。
+        12月 traPの部内ハッカソン（ピクシブ様協賛）で場所法援助Webアプリ「Palamo」制作のフロントエンドを担当。
         <br />
         <h1>2022年</h1>
         <br />
