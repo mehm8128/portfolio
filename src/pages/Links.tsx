@@ -1,8 +1,6 @@
-import {useNavigate} from 'react-router-dom'
 import styles from './Links.module.css'
 
 function Links() {
-  const navigate = useNavigate()
   const linkList = [
     {name: 'Twitter', link: 'https://twitter.com/mehm08128'},
     {name: 'GitHub', link: 'https://github.com/mehm8128'},
