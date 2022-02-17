@@ -49,6 +49,34 @@ function Production() {
         </li>
         <li className={styles.li}>
           <h1>
+            <a href="https://github.com/mehm8128/TwitterBot" className={styles.link}>
+              TwitterBot
+            </a>
+          </h1>
+          <div className={styles.itemContent}>
+            <div className={styles.description}>
+              node.jsを使ってTwitterBotを作った。ライブラリは
+              <a href="https://github.com/PLhery/node-twitter-api-v2">node-twitter-api-v2</a>
+              を使った。現在は自動返信機能のみ。デプロイはherokuを使っている。
+            </div>
+          </div>
+        </li>
+        <li className={styles.li}>
+          <h1>
+            <a href="https://github.com/mehm8128/traq-mehm8128-bot" className={styles.link}>
+              traQBot
+            </a>
+          </h1>
+          <div className={styles.itemContent}>
+            <div className={styles.description}>
+              node.jsを使ってtraQBotを作った(traQとはtraP内SNS)。ライブラリは
+              <a href="https://github.com/sapphi-red/hubot-traq">hubot-traq</a>
+              を使った。デプロイはtraP内サービスのshowcaseを使っている。
+            </div>
+          </div>
+        </li>
+        <li className={styles.li}>
+          <h1>
             <a href="https://event-app-ecru.vercel.app/" className={styles.link}>
               クリスマスツリー飾りつけアプリ
             </a>
