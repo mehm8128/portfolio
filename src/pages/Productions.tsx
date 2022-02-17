@@ -57,7 +57,7 @@ function Production() {
             <div className={styles.description}>
               node.jsを使ってTwitterBotを作った。ライブラリは
               <a href="https://github.com/PLhery/node-twitter-api-v2">node-twitter-api-v2</a>
-              を使った。現在は自動返信機能のみ。デプロイはherokuを使っている。
+              を使った。現在は自動返信機能と日付が変わるタイミングでの時報のみ。デプロイはherokuを使っている。
             </div>
           </div>
         </li>
