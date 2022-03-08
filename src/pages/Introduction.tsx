@@ -20,6 +20,7 @@ function Introuction() {
         12月 traPの部内ハッカソン（ピクシブ様協賛）で場所法援助Webアプリ「Palamo」制作のフロントエンドを担当。
         <br />
         <h1>2022年</h1>
+        3月 サイバーエージェント様のWeb Speed Hackathon for Studentsに参戦。45人中21位。
         <br />
       </div>
     </div>
