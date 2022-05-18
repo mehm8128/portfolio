@@ -20,7 +20,7 @@ function Home() {
         やってること：Web（主にフロントエンド）、競プロ（Atcoder）、CTF
         <br />
         <br />
-        Web：フロントエンドはReact、Vue、Next.js、TypeScriptなど、バックエンドはGolangを主に使います。
+        Web：フロントエンドはReact、Vue、Next.js、TypeScriptなど、バックエンドはGolangを主に使っています。
         <br />
         競プロ：主にPython。C++は勉強中。
         <br />
