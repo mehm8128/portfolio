@@ -22,6 +22,8 @@ function Introuction() {
         <h1>2022年</h1>
         3月 サイバーエージェント様のWeb Speed Hackathon for Studentsに参戦。45人中21位。
         <br />
+        3～5月 株式会社prdでフロントエンドエンジニアとしてインターンに参加。
+        <br />
       </div>
     </div>
   )
