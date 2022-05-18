@@ -1,5 +1,5 @@
-import styles from './Home.module.css'
 import icon from '../assets/mehm8128.png'
+import styles from './Home.module.css'
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
         やってること：Web（主にフロントエンド）、競プロ（Atcoder）、CTF
         <br />
         <br />
-        Web：フロントエンドはReact、Vue、TypeScriptなど、バックエンドはGolangを主に使います。
+        Web：フロントエンドはReact、Vue、Next.js、TypeScriptなど、バックエンドはGolangを主に使います。
         <br />
         競プロ：主にPython。C++は勉強中。
         <br />
